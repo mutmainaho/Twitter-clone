@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <!-- fontawesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+    <title>Twitter</title>
+  </head>
+  <body>
+    <div class="layout">
+      <!-- sidebar -->
+      <div class="left">
+        <nav class="sidebar">
+          <ul class="navbar">
+            <li class="navbar-brand">
+              <a href="#">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="item-icon home">
+                <i class="fas fa-home"></i>
+              </a>
+              <a href="#" class="item-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="item-icon">
+                <i class="fas fa-hashtag"></i>
+              </a>
+              <a href="#" class="item-link">Explore</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="item-icon">
+                <i class="far fa-bell"></i>
+              </a>
+              <a href="#" class="item-link">Notification</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="item-icon">
+                <i class="far fa-envelope"></i>
+              </a>
+              <a href="#" class="item-link">Messages</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="item-icon">
+                <i class="far fa-bookmark"></i>
+              </a>
+              <a href="#" class="item-link">Bookmarks</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="item-icon">
+                <i class="far fa-list-alt"></i>
+              </a>
+              <a href="#" class="item-link">Lists</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="item-icon">
+                <i class="far fa-user"></i>
+              </a>
+              <a href="#" class="item-link">Profile</a>
+            </li>
+            <li class="nav-item" id="moreBtn">
+              <a href="#" class="item-icon">
+                <i class="fas fa-ellipsis-h more-icon"></i>
+              </a>
+              <a href="#" class="item-link">More</a>
+            </li>
+            <a href="#" class="tweet-btn">
+              <i class="fas fa-ellipsis-h more-icon"></i>
+              <div class="text">Post</div></a
+            >
+          </ul>
+          <a href="#" class="profile-btn">
+            <div class="profile-info">
+              <img
+                src="./images/profile-image-3.jpg"
+                alt=""
+                class="profile-img"
+                width="35"
+                height="35"
+              />
+              <div>
+                <p class="name">Sadee</p>
+                <p class="username">@codewithsadee</p>
+              </div>
+            </div>
+            <div class="option-icon">
+              <i class="fas fa-ellipsis-h more-icon"></i>
+            </div>
+          </a>
+        </nav>
+      </div>
+      <div class="home">
+        <div class="upper">
+          <p class="dec">For you</p>
+          <p class="dec">Following</p>
+          <i class="fa fa-cog dec" aria-hidden="true"></i>
+        </div>
+        <div class="post">
+          <form action="">
+            <div class="form-group-1">
+              <img
+                src="./images/profile-image-3.jpg"
+                alt="profile-pics"
+                class="profile-img"
+                width="35"
+                height="35"
+              />
+              <input type="text" placeholder="What's happening?!" />
+            </div>
+            <div class="form-group-2">
+              <div class="post-icons">
+                <i class="far fa-image"></i>
+                <i class="far fa-file-image"></i>
+                <i class="fas fa-stream"></i>
+                <i class="far fa-smile"></i>
+                <i class="far fa-calendar-check"></i>
+                <i class="fa fa-map-marker" aria-hidden="true"></i>
+              </div>
+              <button class="btn" type="submit">Post</button>
+            </div>
+          </form>
+        </div>
+
+        <div class="tweets">
+          <div>
+            <img
+              src="./images/profile-image-1.jpg"
+              alt="profile-pic"
+              class="profile-img"
+              width="35"
+              height="35"
+            />
+          </div>
+          <div class="user-content-box">
+            <div class="user-names">
+              <hi class="full-name">Olivia Brent</hi>
+              <p class="user-name">@iamolivia</p>
+              <p class="time">. 58mins</p>
+            </div>
+            <div class="user-content">
+              <p>
+                We've gotta send kids back to school so one day they can be
+                doctors and scientists, and everyone can ignore them.
+              </p>
+            </div>
+
+            <div class="content-icons">
+              <i class="far fa-comment blue"> 109</i>
+              <i class="fas fa-retweet green"> 865</i>
+              <i class="far fa-heart red">1.6k</i>
+
+              <i class="far fa-bookmark blue"></i>
+              <i class="fa fa-share blue" aria-hidden="true"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="tweets">
+          <div>
+            <img
+              src="./images/profile-image-1.jpg"
+              alt="profile-pic"
+              class="profile-img"
+              width="35"
+              height="35"
+            />
+          </div>
+          <div class="user-content-box">
+            <div class="user-names">
+              <hi class="full-name">Olivia Brent</hi>
+              <p class="user-name">@iamolivia</p>
+              <p class="time">. 58mins</p>
+            </div>
+            <div class="user-content">
+              <p>
+                We've gotta send kids back to school so one day they can be
+                doctors and scientists, and everyone can ignore them.
+              </p>
+            </div>
+
+            <div class="content-icons">
+              <i class="far fa-comment blue"> 109</i>
+              <i class="fas fa-retweet green"> 865</i>
+              <i class="far fa-heart red">1.6k</i>
+
+              <i class="far fa-bookmark blue"></i>
+              <i class="fa fa-share blue" aria-hidden="true"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="tweets">
+          <div>
+            <img
+              src="./images/profile-image-1.jpg"
+              alt="profile-pic"
+              class="profile-img"
+              width="35"
+              height="35"
+            />
+          </div>
+          <div class="user-content-box">
+            <div class="user-names">
+              <hi class="full-name">Olivia Brent</hi>
+              <p class="user-name">@iamolivia</p>
+              <p class="time">. 58mins</p>
+            </div>
+            <div class="user-content">
+              <p>
+                We've gotta send kids back to school so one day they can be
+                doctors and scientists, and everyone can ignore them.
+              </p>
+            </div>
+
+            <div class="content-icons">
+              <i class="far fa-comment blue"> 109</i>
+              <i class="fas fa-retweet green"> 865</i>
+              <i class="far fa-heart red">1.6k</i>
+
+              <i class="far fa-bookmark blue"></i>
+              <i class="fa fa-share blue" aria-hidden="true"></i>
+            </div>
+          </div>
+        </div>
+        <div class="tweets">
+          <div>
+            <img
+              src="./images/profile-image-2.png"
+              alt="profile-pic"
+              class="profile-img"
+              width="35"
+              height="35"
+            />
+          </div>
+          <div class="user-content-box">
+            <div class="user-names">
+              <hi class="full-name">MainahMillions</hi>
+              <p class="user-name">@mainah</p>
+              <p class="time">. 12hr</p>
+            </div>
+            <div class="user-content">
+              <p>
+                Yet Another Guide To Build a JSON API with Phoenix 1.5 shared in
+                the latest Elixir Digest
+                <a href="https://elixirdigest.net/digests/276"
+                  >https://elixirdigest.net/digests/276</a
+                >
+              </p>
+            </div>
+
+            <div class="content-icons">
+              <i class="far fa-comment blue"> 109</i>
+              <i class="fas fa-retweet green"> 865</i>
+              <i class="far fa-heart red">1.6k</i>
+
+              <i class="far fa-bookmark blue"></i>
+              <i class="fa fa-share blue" aria-hidden="true"></i>
+            </div>
+          </div>
+        </div>
+        <div class="tweets">
+          <div class="user-pics">
+            <img
+              src="./images/profile-image-2.png"
+              alt="profile-pic"
+              class="profile-img"
+              width="35"
+              height="35"
+            />
+          </div>
+          <div class="user-content-box">
+            <div class="user-names">
+              <hi class="full-name">Eric Alvarez</hi>
+              <p class="user-name">@eric_alvarez</p>
+              <p class="time">. 2hrs</p>
+            </div>
+
+            <div class="user-content">
+              <p>
+                Eat. Code, Sleep. repeat! <a href="#">#CodeNewbie</a>
+                <a href="#">#100DaysOfCode</a>
+              </p>
+              <img
+                src="./images/post-image-1.jpeg"
+                alt="content1"
+                class="tweet-img"
+              />
+            </div>
+
+            <div class="content-icons">
+              <i class="far fa-comment blue"> 109</i>
+              <i class="fas fa-retweet green"> 865</i>
+              <i class="far fa-heart red">1.6k</i>
+
+              <i class="far fa-bookmark blue"></i>
+              <i class="fa fa-share blue" aria-hidden="true"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="tweets">
+          <div>
+            <img
+              src="./images/profile-image-1.jpg"
+              alt="profile-pic"
+              class="profile-img"
+              width="35"
+              height="35"
+            />
+          </div>
+          <div class="user-content-box">
+            <div class="user-names">
+              <hi class="full-name">Olivia Brent</hi>
+              <p class="user-name">@iamolivia</p>
+              <p class="time">. 58mins</p>
+            </div>
+            <div class="user-content">
+              <p>
+                We've gotta send kids back to school so one day they can be
+                doctors and scientists, and everyone can ignore them.
+              </p>
+            </div>
+
+            <div class="content-icons">
+              <i class="far fa-comment blue"> 109</i>
+              <i class="fas fa-retweet green"> 865</i>
+              <i class="far fa-heart red">1.6k</i>
+
+              <i class="far fa-bookmark blue"></i>
+              <i class="fa fa-share blue" aria-hidden="true"></i>
+            </div>
+          </div>
+        </div>
+        <div class="tweets">
+          <div>
+            <img
+              src="./images/profile-image-3.jpg"
+              alt="profile-pic"
+              class="profile-img"
+              width="35"
+              height="35"
+            />
+          </div>
+          <div class="user-content-box">
+            <div class="user-names">
+              <hi class="full-name">MainahMillions</hi>
+              <p class="user-name">@mainah</p>
+              <p class="time">. 12hr</p>
+            </div>
+            <div class="user-content">
+              <p>
+                Yet Another Guide To Build a JSON API with Phoenix 1.5 shared in
+                the latest Elixir Digest
+                <a href="https://elixirdigest.net/digests/276"
+                  >https://elixirdigest.net/digests/276</a
+                >
+              </p>
+            </div>
+
+            <div class="content-icons">
+              <i class="far fa-comment blue"> 109</i>
+              <i class="fas fa-retweet green"> 865</i>
+              <i class="far fa-heart red">1.6k</i>
+
+              <i class="far fa-bookmark blue"></i>
+              <i class="fa fa-share blue" aria-hidden="true"></i>
+            </div>
+          </div>
+        </div>
+        <div class="tweets">
+          <div class="user-pics">
+            <img
+              src="./images/profile-image-2.png"
+              alt="profile-pic"
+              class="profile-img"
+              width="35"
+              height="35"
+            />
+          </div>
+          <div class="user-content-box">
+            <div class="user-names">
+              <hi class="full-name">Eric Alvarez</hi>
+              <p class="user-name">@eric_alvarez</p>
+              <p class="time">. 2hrs</p>
+            </div>
+
+            <div class="user-content">
+              <p>
+                Eat. Code, Sleep. repeat! <a href="#">#CodeNewbie</a>
+                <a href="#">#100DaysOfCode</a>
+              </p>
+              <img
+                src="./images/post-image-1.jpeg"
+                alt="content1"
+                class="tweet-img"
+              />
+            </div>
+
+            <div class="content-icons">
+              <i class="far fa-comment blue"> 109</i>
+              <i class="fas fa-retweet green"> 865</i>
+              <i class="far fa-heart red">1.6k</i>
+
+              <i class="far fa-bookmark blue"></i>
+              <i class="fa fa-share blue" aria-hidden="true"></i>
+            </div>
+          </div>
+        </div>
+        <div class="tweets">
+          <div>
+            <img
+              src="./images/profile-image-1.jpg"
+              alt="profile-pic"
+              class="profile-img"
+              width="35"
+              height="35"
+            />
+          </div>
+          <div class="user-content-box">
+            <div class="user-names">
+              <hi class="full-name">Olivia Brent</hi>
+              <p class="user-name">@iamolivia</p>
+              <p class="time">. 58mins</p>
+            </div>
+            <div class="user-content">
+              <p>
+                We've gotta send kids back to school so one day they can be
+                doctors and scientists, and everyone can ignore them.
+              </p>
+            </div>
+
+            <div class="content-icons">
+              <i class="far fa-comment blue"> 109</i>
+              <i class="fas fa-retweet green"> 865</i>
+              <i class="far fa-heart red">1.6k</i>
+
+              <i class="far fa-bookmark blue"></i>
+              <i class="fa fa-share blue" aria-hidden="true"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="layout__right-sidebar-container">
+        <div class="layout__right-sidebar">
+          <div class="search-box">
+            <i class="fas fa-search"></i>
+            <input class="search-field" type="text" placeholder="Search" />
+          </div>
+          <div class="sub">
+            <h3>Subscribe to Premium</h3>
+            <p>
+              Subscribe to unlock new features and if eligible, receive a share
+              of ads revenue.
+            </p>
+            <button class="subscribe">subscribe</button>
+          </div>
+          <div class="sub trends-for-you">
+            <div class="trends-for-you__block">
+              <div class="trends-for-you__heading">Trends for you</div>
+            </div>
+            <div class="trends-for-you__block">
+              <div class="trends-for-you__meta-information">
+                Trending in Germany
+              </div>
+              <div class="trends-for-you__trend-name">#iPhone12</div>
+              <div class="trends-for-you__meta-information">155k Tweets</div>
+            </div>
+            <div class="trends-for-you__block">
+              <div class="trends-for-you__meta-information">
+                Trending in Germany
+              </div>
+              <div class="trends-for-you__trend-name">#AmazonPrimeDay</div>
+            </div>
+            <div class="trends-for-you__block">
+              <div class="trends-for-you__meta-information">
+                Trending - Trending
+              </div>
+              <div class="trends-for-you__trend-name">#autos</div>
+              <div class="trends-for-you__meta-information">2,800 Tweets</div>
+            </div>
+          </div>
+          <div class="sub who-to-follow">
+            <div class="who-to-follow__block">
+              <div class="who-to-follow__heading">Who to follow</div>
+            </div>
+            <div class="who-to-follow__block">
+              <img
+                class="who-to-follow__author-logo"
+                src="./images/profile-image-1.jpg"
+              />
+              <div class="who-to-follow__content">
+                <div>
+                  <div class="who-to-follow__author-name">Becki (& Chris)</div>
+                  <div class="who-to-follow__author-slug">@beckiandchris</div>
+                </div>
+                <div class="who-to-follow__button">Follow</div>
+              </div>
+            </div>
+            <div class="who-to-follow__block">
+              <img class="who-to-follow__author-logo" />
+              <div class="who-to-follow__content">
+                <div>
+                  <div class="who-to-follow__author-name">Elixir Digest</div>
+                  <div class="who-to-follow__author-slug">@elixirdigest</div>
+                </div>
+                <div class="who-to-follow__button">Follow</div>
+              </div>
+            </div>
+
+            <div class="who-to-follow__block">
+              <img
+                class="who-to-follow__author-logo"
+                src="./images/profile-image-3.jpg"
+              />
+              <div class="who-to-follow__content">
+                <div>
+                  <div class="who-to-follow__author-name">Chris Martin</div>
+                  <div class="who-to-follow__author-slug">@chris_martin</div>
+                </div>
+                <div class="who-to-follow__button">Follow</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
